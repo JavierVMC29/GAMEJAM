@@ -35,4 +35,10 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1f;
         mainCamera.GetComponent<CameraController>().enabled = true;
     }
+
+    public void ExitToMainMenu()
+    {
+        SceneManager.LoadScene("Menu");
+        Time.timeScale = 1f;
+    }
 }

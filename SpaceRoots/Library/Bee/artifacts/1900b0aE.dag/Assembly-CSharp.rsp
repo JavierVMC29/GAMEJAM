@@ -123,9 +123,9 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"C:/Users/javie/Desktop/GAME JAM/SpaceRoots/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
--r:"C:/Users/javie/Desktop/GAME JAM/SpaceRoots/Library/PackageCache/com.unity.testtools.codecoverage@1.1.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
--r:"C:/Users/javie/Desktop/GAME JAM/SpaceRoots/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"C:/Users/javie/Desktop/GAME JAM/GAMEJAM/SpaceRoots/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
+-r:"C:/Users/javie/Desktop/GAME JAM/GAMEJAM/SpaceRoots/Library/PackageCache/com.unity.testtools.codecoverage@1.1.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
+-r:"C:/Users/javie/Desktop/GAME JAM/GAMEJAM/SpaceRoots/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"E:/Unity/2022.1.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"E:/Unity/2022.1.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"E:/Unity/2022.1.16f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -360,8 +360,10 @@
 "Assets/Scripts/Billboard.cs"
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/CursorManager.cs"
-"Assets/Scripts/Enemy.cs"
+"Assets/Scripts/Enemy/Charco.cs"
+"Assets/Scripts/Enemy/Enemy.cs"
 "Assets/Scripts/Enemy/EnemyFollow.cs"
+"Assets/Scripts/Enemy/SpawnArea.cs"
 "Assets/Scripts/Gun.cs"
 "Assets/Scripts/HealthBar.cs"
 "Assets/Scripts/Interactables/AmmoInteractable.cs"
