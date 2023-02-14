@@ -11,9 +11,26 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     private GameObject gameover;
     [SerializeField]
+    private GameObject gamewon;
+    [SerializeField]
     private GameObject ui;
     [SerializeField]
     private Camera mainCamera;
+
+
+    public void WinGame()
+    {
+        if (gameHasEnded == false)
+        {
+            gameHasEnded = true;
+            Debug.Log("Game won");
+            Time.timeScale = 0f;
+            ui.SetActive(false);
+            gamewon.SetActive(true);
+            mainCamera.GetComponent<CameraController>().enabled = false;
+            Cursor.lockState = CursorLockMode.None;
+        }
+    }
 
     public void EndGame()
     {

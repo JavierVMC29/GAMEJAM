@@ -6,6 +6,8 @@ public class RaygunInteractable : MonoBehaviour, IInteractable
 {
     [SerializeField]
     private GameObject raygun;
+    [SerializeField]
+    private GameObject ammmoLevel;
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +24,7 @@ public class RaygunInteractable : MonoBehaviour, IInteractable
     public void Interact()
     {
         raygun.SetActive(true);
+        ammmoLevel.SetActive(true);
         Destroy(gameObject);
     }
 }

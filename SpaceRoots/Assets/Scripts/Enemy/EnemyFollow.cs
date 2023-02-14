@@ -6,7 +6,6 @@ using UnityEngine.AI;
 public class EnemyFollow : MonoBehaviour
 {
     private NavMeshAgent enemyAgent;
-    [SerializeField]
     private Player player;
     private AudioSource sound;
 
@@ -16,6 +15,7 @@ public class EnemyFollow : MonoBehaviour
         enemyAgent = GetComponent<NavMeshAgent>();
         sound = GetComponent<AudioSource>();
         sound.enabled = true;
+        player = FindObjectOfType<Player>();
     }
 
     // Update is called once per frame

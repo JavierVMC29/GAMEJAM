@@ -28,4 +28,10 @@ public class CameraController : MonoBehaviour
         playerBody.Rotate(mouseX * mouseSensitivity * Time.deltaTime * Vector3.up);
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
     }
+
+    void Pan()
+    {
+        Debug.Log("Pan");
+        transform.Translate(1f * Time.deltaTime * new Vector3(0, 100f, 0));
+    }
 }
